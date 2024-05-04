@@ -1,0 +1,595 @@
+/*
+Theme Name: Mecare
+Theme URI: https://shtheme.org/demosd/mecare
+Author: Shtheme
+Author URI: https://shtheme.com
+Description: Mecare – Hospital and Health WordPress Theme. Mecare theme is for Medical and Hospitals is a modern trading design to boost your business. We have built this theme base on in-depth research on Hospital, Health and Insurance Business, tailored to your need and to the expectation for your clients.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: mecare
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+.post__tag ul a {
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid #e5e5e5;
+    padding: 12px 18px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 3px;
+    color: #6e6e6e;
+    margin-right: 12px;
+}
+.post__tag ul a:hover {
+    border-color: #1E0B9B;
+    background: #1E0B9B;
+    color: #ffffff;
+}
+.gallery-size-thumbnail{
+    display: none;
+}
+.widget-social br{
+    display: none;
+}
+.widget_tag_cloud ul li a.tag-cloud-link {
+    display: block;
+    border: 1px solid #d8d8d8;
+    font-size: 14px;
+    color: #6e6e6e;
+    padding: 9px 20px!important;
+    margin: 0;
+}
+.widget_tag_cloud ul li {
+    display: inline-block;
+    margin: 5px 3px;
+}
+.widget_tag_cloud ul li:hover a {
+    background: #1E0B9B;
+    border-color: #1E0B9B;
+    color: #ffffff;
+}
+.widget_categories li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+}
+.widget_categories li a {
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.widget_categories li:hover a {
+    color: #1E0B9B;
+}
+.widget_categories li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+}
+ul.pagination span.current{
+    background: #3763eb;
+    color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(26, 35, 126, 0.32);
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: block;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+}
+.comments-avatar img{
+    border-radius: 50%;
+}
+.comment-text .avatar-name .comment-reply-link {
+    float: right;
+    display: inline-block;
+    border: 2px solid #f4f4ff;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: -30px;
+    color: #6e6e6e;
+}
+.comment-text .avatar-name .comment-reply-link:hover {
+    border-color: #1E0B9B;
+    background: #1E0B9B;
+    color: #ffffff;
+}
+p.form-submit{
+    margin-bottom: 0;
+}
+p.form-submit input.submit{
+    background: transparent;
+    border: 2px solid #1E0B9B;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #252525;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 18px 45px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+p.form-submit input.submit:hover {
+    color: #fff;
+    background: #1E0B9B;
+}
+.comment-form-cookies-consent{
+    display: none;
+}
+h3.comment-reply-title{
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+.comment__wrap .single__comment:last-child{
+    margin-bottom: 0;
+}
+.page404{
+    background-color: #1E0B9B;
+    height: 795px;
+}
+.page404 h1{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.page404 h4{
+    font-size: 40px;
+    color: #fff;
+    margin: 30px auto 45px;
+}
+.page404 a.main-btn-3{
+    border:2px solid #fff;
+}
+@media (max-width: 767px){
+.breadcrumb-title h2 {
+    font-size: 28px;
+}
+.post__share ul li{
+    margin-left: 0;
+    margin-right: 20px;
+}
+#mobile-menu{
+    padding: 0;
+}
+}
+div.wpcf7-response-output{
+    margin:0;
+    margin-top: 10px;
+}
+.booking-area .btn.ss-btn {
+    width: 150px;
+}
+span.wpcf7-not-valid-tip{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+footer .f-insta ul li {
+    max-width: 80px;
+}
+footer .f-insta ul{
+    max-width: 360px;
+}
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0px!important;
+}
+.slick-slide.slider-bg{
+    min-height: 810px!important;
+}
+.second-services-content h5 a{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: .3s;
+    color: #252525;
+}
+
+.testi-author.text-center img{
+    display: inline;
+}
+.single-cta p a{
+    color: #333;
+}
+.contact-field input::placeholder { 
+    color: #333;
+}
+
+.contact-field input:-ms-input-placeholder { 
+    color: #333;
+}
+
+.contact-field input::-ms-input-placeholder { 
+    color: #333;
+}
+.b-meta ul li a, .b-meta ul li a.corpo{
+    color: #333;
+    font-weight: 500;
+}
+.comment__form .comment-field textarea::placeholder, .comment__form .comment-field input::placeholder{
+    color: #333;
+}
+.comment__form .comment-field textarea:-ms-input-placeholder, .comment__form .comment-field input:-ms-input-placeholder{
+    color: #333;
+}
+.comment__form .comment-field textarea::-ms-input-placeholder, .comment__form .comment-field input::-ms-input-placeholder{
+    color: #333;
+}
+.comment-text .avatar-name span{
+    color: #333;
+    font-weight: 600;
+}
+.comment-text .avatar-name h6 {
+    font-size: 21px;
+}
+.widget-title h4{
+    font-size: 24px;
+}
+.comment__wrap-title h5, h3.comment-reply-title{
+    font-size: 29px;
+}
+.details__content blockquote{
+    padding-left: 55px;
+    color: white;
+}
+.meta__info ul li a, .meta__info ul li, .bsingle__content .meta-info ul li a, .bsingle__content .meta-info ul li{
+    color: #333;
+    font-weight: 500;
+}
+.meta__info, .bsingle__content .meta-info{
+    margin-bottom: 20px;
+}
+.widget__post ul li{
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.widget__post ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+.widget__post-content h6{
+    font-size: 17px;
+    padding-top: 8px;
+}
+.widget__post-content span{
+    display: none;
+}
+.widget-title{
+    margin-bottom: 30px;
+}
+.widget_categories li a, .widget_tag_cloud ul li a.tag-cloud-link{
+    color: #333;
+}
+.widget_tag_cloud ul li a.tag-cloud-link{  
+    border: 1px solid #333;
+}
+.widget_tag_cloud ul li a:hover{
+    color: white;
+}
+.second-services-content h5 a {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.single-post{
+    box-shadow: 0px 10px 80px 0px rgba(193, 193, 193, 0.41);
+}
+.single-post .blog-content a.blog-btn{
+    color: #fff;
+    background: #1E0B9B;
+    border: 2px solid #1E0B9B;
+}
+.single-post .blog-content a.blog-btn:hover{
+    color: #1E0B9B;
+    background: white;
+}
+.counter .count{
+    font-size: 60px;
+    font-weight: 600;
+}
+.single-counter p{
+    font-weight: 500;
+}  color: #1E0B9B;
+}
+.team-info span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.contact-area.contact-bg > .container > .row > .col-lg-4{
+    background: #1E0B9B;
+    color: white;
+    padding: 30px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+.contact-area.contact-bg > .container > .row > .col-lg-8{
+    padding-left: 35px;
+}
+.single-cta{
+    padding-bottom: 31px;
+    margin-bottom: 31px;
+}
+.f-cta-icon{
+    display: inline-block;
+    float: left;
+}
+.f-cta-icon i{
+    background: white;
+    color: #1E0B9B;
+}
+.single-cta h5{
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+    display: inline-block;
+    float: left;
+    line-height: 41px;
+    margin-left: 18px;
+}
+.single-cta p{
+    color: white;
+    clear: both;
+    font-size: 15px;
+}
+.single-cta p a{
+    color: white;
+}
+div.single-cta:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} 
+.contact-area .contact-field.p-relative.c-message{
+    margin-bottom: 20px;
+}
+.b-meta ul li a{
+    color: white!important;
+}
+.section-title h2::before{
+    background: #4278bb!important;
+}
+.avatar-img img{
+    border-radius: 50%;
+}
+.bsingle__content .blog__btn .btn{
+    background: #3763eb;
+    color: #fff;
+    border-color: #3763eb;
+    padding: 16px 40px;
+}
+.bsingle__content .blog__btn .btn:hover {
+    border-color: #1E0B9B;
+}
+.project-detail .text-column{
+    margin-bottom: 0;
+}
+.search-custom form button {
+    border: 1px solid #1E0B9B;
+    color: #fff;
+    font-size: 16px;
+    height: 47px;
+    position: relative;
+    width: 47px;
+    cursor: pointer;
+    float: right;
+    background: #1E0B9B;
+    margin-top: -47px;
+    padding: 0;
+    letter-spacing: 0;
+}
+.search-custom form button:hover{
+    background: #fff;
+    border: 1px solid #1E0B9B;
+    color: #1E0B9B;
+}
+.search-custom form input{
+    width: 100%;
+    padding: 9px 12px;
+    margin-top: 10px;
+}
+.search-custom h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #333333;
+}
+.search-outer button{
+    color: #1E0B9B;
+    font-size: 18px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 10px;
+}
+.pt-200{
+    padding-top: 200px;
+}
+.pb-200{
+    padding-bottom: 200px;
+}
+ .newslater-area #contact-form4 input.wpcf7-submit {
+    background: transparent linear-gradient(90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box!important;
+    box-shadow: none;
+    padding: 14px 15px 14px 30px!important;
+    width: 36%!important;
+    float: left!important;
+    color: #fff!important;
+    border-radius: 23px!important;
+    position: absolute!important;
+    text-align: left;
+    right: 17px!important;
+    top: 1px!important;
+}
+.newslater-area #contact-form4 input.wpcf7-submit:hover{
+    color: #fff;
+    background: #1E0B9B!important;
+}
+.comment-respond{
+    margin-bottom: 50px;
+}
+.elementor .s-about-img img{
+    max-width: inherit;
+}
+.blog-content.text-center .row .col-lg-6 a{
+    text-transform: capitalize;
+    color: #333;
+}
+.blog-content.text-center .row .col-lg-6{
+    padding-right: 0;
+    padding-left: 0;
+}
+.elementor .single-brand img{
+    display: inline-block;
+}
+.team-area-content {
+    padding: 100px 0;
+}
+.team-area-content .team-img-box {
+    background: #fff;
+    transform: translateY(0);
+    padding: 30px 20px;
+    transition: .3s;
+    box-shadow: 3px 4px 15px #00000026;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.team-area-content .social a i.fab {
+    font-size: 12px;
+    color: #fff;
+    margin: 0 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #1a29a7;
+    border-radius: 50%;
+    line-height: 30px;
+}
+.team-area-content span {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #1a29a7;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+}
+.page404 a.main-btn-3:hover{
+    background: transparent linear-gradient(90deg, #07CCEC 0%, #1E0B9B 100%) 0% 0% no-repeat padding-box;
+}
+.single-post{
+	box-shadow:none;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: unset!important;
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0px!important;
+}
+.wp-block-group h2.wp-block-heading {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.widget_block.widget_search label.wp-block-search__label {
+    display: none;
+}
+.widget_block .wp-block-search .wp-block-search__inside-wrapper {
+    position: relative;
+}
+.widget_block .wp-block-search .wp-block-search__input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #f4f5f7;
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container ul li {
+    margin-bottom: 20px;
+    color: #040b11;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 28px;
+}
+.widget_block .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    color: #040b11;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-posts__list.wp-block-latest-posts li {
+    margin-bottom: 20px;
+    color: #040b11;
+    font-size: 16px;
+    line-height: 1.5em;
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-posts__list.wp-block-latest-posts li:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px dashed #cccccc;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-comments .wp-block-latest-comments__comment {
+    color: #040b11;
+    font-size: 16px;
+    line-height: 1.5em;
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-comments .wp-block-latest-comments__comment:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px dashed #cccccc;
+}
+.sidebar_widget.widget.widget_block.widget_search .wp-block-search__button-outside .wp-block-search__inside-wrapper {
+    margin: 0px 0px;
+}
+.sidebar__widget .wp-block-group__inner-container .wp-block-latest-comments {
+    padding-left: 0rem;
+}
+.wp-block-group ol.wp-block-latest-comments {
+    box-sizing: border-box;
+    margin-left: 0;
+    padding-left: 0px;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-posts__list.wp-block-latest-posts li a{
+    color: inherit;
+}
+.widget_block .wp-block-group .wp-block-group__inner-container .wp-block-latest-comments .wp-block-latest-comments__comment a{
+    color: inherit;
+}
